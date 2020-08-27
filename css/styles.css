@@ -40,15 +40,15 @@ body {
   /*Menu items*/
   #nav-list {
     margin-top: 10px;
-    background-color: #804000; 
+    background-color: lightslategrey; 
   }
   #nav-list a { /*dropdown menu colors*/
     color: #ffffff;
-    background: #992600;
+    background: lightslategrey;
     text-align: center;
   }
   #nav-list a:hover {
-    background: #661a00;
+    background: #e497d3;
   }
   
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -60,12 +60,19 @@ body {
   #main-content a {
       text-decoration: none;
   }
+
+  .colapse-link{
+    background-color: darkslategray;
+  }
   
+  .colapse-link:hover{
+    background-color: #e497d3;
+  }
   .sectiontxt h3 {
       padding: 5px 0px 15px 0px ;
       margin: 10px 0px 0px 0px ;
   }
-  
+
   div.sectiontxt{
       margin: 10px;
       background-color: grey;
